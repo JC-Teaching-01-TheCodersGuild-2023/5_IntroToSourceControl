@@ -5,7 +5,7 @@
 updateBG = () => {
   // console.log(document.querySelector("body").style.backgroundColor);
   const x = document.querySelector("body").style.backgroundColor;
-  document.querySelector("body").style.backgroundColor = (x === "lightgoldenrodyellow") ? "firebrick" : "lightgoldenrodyellow";
+  document.querySelector("body").style.backgroundColor = (x === "lightgoldenrodyellow") ? "green" : "lightgoldenrodyellow";
 }
 
 document.querySelector("#myBtn").addEventListener("click", updateBG);
